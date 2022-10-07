@@ -1,0 +1,48 @@
+body {
+    background-color: #F0F0F0;
+    font-family: 'Anton', 'Abel', sans-serif;
+}
+
+#logo {
+    height: 105px;
+    width: 105px;
+}
+
+.heading {
+    font: font-family: 'Anton', sans-serif;
+}
+
+.circle-with-text {
+    height: 18px;
+    width: 18px;
+}
+
+.featuredProject {
+    font: font-family: 'Abel', sans-serif;
+}
+
+.circle-with-letter {
+    height: ;
+    width: ;
+}
+
+.redcolor {
+    background-color: #E6563B;
+}
+
+.orangecolor {
+    background-color: #EB9D3A;
+}
+
+.greencolor {
+    background-color: #7CB06C;
+}
+
+.tealcolor {
+    background-color: #00ABA9;
+}
+
+.whitecolor {
+    background-color: #F0F0F0;
+}
+
