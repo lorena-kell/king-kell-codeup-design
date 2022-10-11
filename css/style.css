@@ -32,10 +32,27 @@ body {
     height: 105px;
     width: 105px;
     display: flex;
+    /*flex: left;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-basis: auto;*/
+    /*flex-direction: row;*/
+}
+
+/*style the navigation menu*/
+.navbar {
+    overflow: hidden;
+    position: relative;
+}
+
+/*Hide the links inside the navigation menu (except for logo/home)*/
+.navbar-nav {
+
+}
+
+.nav-item {
+    color: #b7b6b3;
+    display: flex;
     flex: left;
-    flex-wrap: nowrap;
-    flex-basis: auto;
-    flex-direction: row;
 }
 
 .heading {
@@ -52,8 +69,7 @@ body {
 }
 
 .circle-with-letter {
-    height: ;
-    width: ;
+
 }
 
 .redcolor {
