@@ -6,6 +6,11 @@ body {
 #logo {
     height: 105px;
     width: 105px;
+    display: flex;
+    flex: left;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    flex-direction: row;
 }
 
 .heading {
@@ -13,8 +18,8 @@ body {
 }
 
 .circle-with-text {
-    height: 18px;
-    width: 18px;
+    border: white solid 5px;
+    color: white;
 }
 
 .featuredProject {
