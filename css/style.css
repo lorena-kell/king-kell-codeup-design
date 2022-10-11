@@ -1,9 +1,11 @@
 /* Small 510 */
-@media screen and (min-width: 510px) and (max-width: 902px) {
-    .dotBig {
-        color: yellow;
-    }
-}
+/*@media screen and (min-width: 510px) and (max-width: 902px) {*/
+/*    .dotBig {*/
+/*        color: yellow;*/
+/*    }*/
+/*}*/
+
+@media
 
 /* Medium 902 */
 @media screen and (min-width: 902px) and (max-width: 1903px) {
@@ -11,6 +13,7 @@
         color: darkblue;
     }
 }
+
 /* Large 1094*/
 @media screen and (min-width: 1094px) and (max-width: 1653px) {
     .dotBig {
@@ -28,7 +31,7 @@ body {
     font-family: 'Anton', 'Abel', sans-serif;
 }
 
-#logo {
+.logo {
     height: 105px;
     width: 105px;
     display: flex;
@@ -38,7 +41,10 @@ body {
     /*flex-direction: row;*/
 }
 
-/*style the navigation menu*/
+/*hamburger toggler*/
+
+
+/*style the navigation menu links*/
 .navbar {
     overflow: hidden;
     position: relative;
