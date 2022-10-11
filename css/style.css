@@ -54,12 +54,14 @@ body {
 }
 .dotBig {
 
-    height: 100px;
-    width: 100px;
+    height: 85px;
+    width: 85px;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
