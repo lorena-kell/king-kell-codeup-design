@@ -1,3 +1,28 @@
+/* Small 510 */
+@media screen and (min-width: 510px) and (max-width: 902px) {
+    .dotBig {
+        color: yellow;
+    }
+}
+
+/* Medium 902 */
+@media screen and (min-width: 902px) and (max-width: 1903px) {
+    .dotBig {
+        color: darkblue;
+    }
+}
+/* Large 1094*/
+@media screen and (min-width: 1094px) and (max-width: 1653px) {
+    .dotBig {
+        color: darkred;
+    }
+}
+/* Extra Large (1654*/
+@media screen and (width: 1654px) {
+    .dotBig {
+        color: darkmagenta;
+    }
+}
 body {
     background-color: #F0F0F0;
     font-family: 'Anton', 'Abel', sans-serif;
